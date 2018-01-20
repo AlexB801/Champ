@@ -5,6 +5,7 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  text-align: center;
 }
 
 p, ol, ul, td {
@@ -27,8 +28,8 @@ a {
   }
 
   &:hover {
-    color: #fff;
-    background-color: #000;
+    // color: #fff;
+    // background-color: #000;
   }
 }
 
@@ -81,4 +82,12 @@ div {
 
 label {
   display: block;
+}
+
+table {
+  text-align: center;
+}
+
+h1 {
+  text-align: centered;
 }
