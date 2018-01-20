@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<table>
   <strong>Title:</strong>
   <%= @post.title %>
-</p>
+</table>
 
-<p>
+<table>
   <strong>Body:</strong>
   <%= @post.body %>
-</p>
+</table>
 
-<p>
+<table>
   <strong>Published:</strong>
   <%= @post.published %>
-</p>
+</table>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>

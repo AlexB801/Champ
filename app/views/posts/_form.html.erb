@@ -11,22 +11,22 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div>
     <%= form.label :title %>
     <%= form.text_field :title, id: :post_title %>
   </div>
 
-  <div class="field">
+  <div>
     <%= form.label :body %>
     <%= form.text_area :body, id: :post_body %>
   </div>
 
-  <div class="field">
+  <div>
     <%= form.label :published %>
     <%= form.check_box :published, id: :post_published %>
   </div>
 
-  <div class="actions">
+  <div>
     <%= form.submit %>
   </div>
 <% end %>

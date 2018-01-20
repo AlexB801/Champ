@@ -2,7 +2,7 @@
 
 <h1>Posts</h1>
 
-<table>
+<table class="table table-striped centered">
   <thead>
     <tr>
       <th>Title</th>
@@ -15,7 +15,7 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
-        <td><%= post.title %></td>
+        <td class="active"><%= post.title %></td>
         <td><%= post.body %></td>
         <td><%= post.published %></td>
         <td><%= link_to 'Show', post %></td>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<button class="btn btn-primary centered"><%= link_to 'New Post', new_post_path %></button>
